@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sundram Singh | Portfolio</title>
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #e5e7eb;
+    }
+
+    a {
+      text-decoration: none;
+      color: #38bdf8;
+    }
+
+    /* NAVBAR */
+    .navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: #020617;
+      padding: 15px;
+      text-align: center;
+      z-index: 100;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+    }
+
+    .navbar a {
+      margin: 0 15px;
+      font-weight: bold;
+      color: #e5e7eb;
+    }
+
+    .navbar a:hover {
+      color: #38bdf8;
+    }
+
+    /* SECTIONS */
+    .section {
+      padding: 100px 60px;
+      opacity: 0;
+      transform: translateY(40px);
+      transition: all 0.6s ease;
+    }
+
+    .section.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    h2 {
+      color: #38bdf8;
+      margin-bottom: 20px;
+    }
+
+    /* HOME */
+    .hero {
+      display: flex;
+      gap: 40px;
+      align-items: center;
+      padding-top: 140px;
+    }
+
+    .hero-circle {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      border: 3px solid #38bdf8;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 64px;
+      font-weight: bold;
+      color: #38bdf8;
+      background: #020617;
+    }
+
+    .buttons a {
+      display: inline-block;
+      margin-right: 12px;
+      margin-top: 15px;
+      padding: 10px 16px;
+      background: #020617;
+      border: 1px solid #38bdf8;
+      border-radius: 6px;
+      color: #38bdf8;
+      transition: 0.3s;
+    }
+
+    .buttons a:hover {
+      background: #38bdf8;
+      color: #020617;
+    }
+
+    .card {
+      background: #020617;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      border-left: 4px solid #38bdf8;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#training">Training</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- HOME -->
+  <div id="home" class="section hero">
+    <img src="profile.jpg" alt="Sundram Singh" style="
+       width:180px;
+       height:180px;
+       border-radius:50%;
+       border:3px solid #38bdf8;
+       object-fit:cover;
+       background:#020617;
+     ">
+
+    <div>
+      <h1>Sundram Singh</h1>
+      <p>B.Tech IT Student | Cloud | DevOps | AI Enthusiast</p>
+
+      <p>
+        Passionate about Cloud Computing, DevOps, and AI-driven solutions.
+        Skilled in building reliable systems, monitoring infrastructure,
+        and solving real-world technical challenges.
+      </p>
+
+      <div class="buttons">
+        <a href="tel:+917518784497">📞 Call</a>
+        <a href="https://www.linkedin.com/in/sundram2005/" target="_blank">💼 LinkedIn</a>
+        <a href="https://github.com/singhsundram559" target="_blank">💻 GitHub</a>
+        <a href="cv.pdf" target="_blank">📄 Resume</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <div id="skills" class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li><b>Languages:</b> C++, C, Java, HTML</li>
+      <li><b>Platforms:</b> AWS Cloud, Docker, Linux (Ubuntu)</li>
+      <li><b>Technical:</b> UI/UX Design, DevOps, AI</li>
+      <li><b>Soft Skills:</b> Problem Solving, Team Player, Project Management, Adaptability</li>
+    </ul>
+  </div>
+
+  <!-- PROJECTS -->
+  <div id="projects" class="section">
+    <h2>Projects</h2>
+
+    <div class="card">
+      <h3>AI Smart Home Troubleshooter</h3>
+      <p></p> Built an Al-powered web assistant to diagnose and resolve smart home device issues in real time.</p> 
+<p>Designed an interactive chatbot interface for identifying device-specific problems like Wi-Fi failure, 
+overheating, or irresponsibility.</p> 
+<p>Implemented rule-based logic to deliver accurate, instant troubleshooting solutions. Enhanced user 
+experience with a clean,<br>  <br> responsive Ul and smooth chat workflow.  Achieved up to 30% faster 
+troubleshooting through automated issue detection.</p>  
+          <p>Tech: Tableau, SAP, DNS, SSL Certificates.  </p>
+    </div>
+
+    <div class="card">
+      <h3>Cloud Monitoring and Alerts</h3>
+      <p>
+         Developed a real-time cloud monitoring and alerting system using AWS and Azure to track key 
+performance metrics and system health. </p>
+<p> Configured automated alerts and dashboards, to detect system failures and performance issues early.<br>   <br> 
+Improved incident response time by enabling proactive monitoring and faster troubleshooting.</p> 
+<p> Built a real-time cloud monitoring and alerting system using AWS and Azure with automated dashboards, 
+alerts, and log analytics to <br> <br>proactively detect failures and reduce incident response time. </p>
+ <p>Tech: AWS (EC2, S3, CloudWatch, SNS, IAM).
+      </p>
+    </div>
+  </div>
+
+  <!-- TRAINING -->
+  <div id="training" class="section">
+    <h2>Training</h2>
+
+    <div class="card">
+      <h3>Data Structures & Algorithms Using C++</h3>
+      <p>Cipher School (Aug 2023)</p>
+      <ul>
+        <li>Implemented Arrays, Linked Lists, Stacks, Queues, Trees, Graphs.</li>
+        <li>Solved 50+ DSA problems including recursion & dynamic programming.</li>
+        <li>Improved performance using STL and optimized memory usage.</li>
+      </ul>
+      <p><b>Tech:</b> C++, OOP, Templates, Memory Management</p>
+    </div>
+  </div>
+
+  <!-- CERTIFICATES -->
+  <div id="certificates" class="section">
+    <h2>Certificates</h2>
+    <ul>
+      <li>Introduction to Image Processing – Coursera</li>
+      <li>Video Compression Demystified – Infosys Springboard</li>
+      <li>Privacy & Security in Social Media – SWAYAM</li>
+      <li>Git & GitHub – Cipher School</li>
+    </ul>
+  </div>
+
+  <!-- EDUCATION -->
+  <div id="education" class="section">
+    <h2>Education</h2>
+
+    <div class="card">
+      <p><b>B.Tech – Information Technology</b></p>
+      <p>Lovely Professional University (2023–2025)</p>
+      <p>CGPA: 6.2</p>
+    </div>
+
+    <div class="card">
+      <p><b>Intermediate (PCM)</b></p>
+      <p>M.G Inter College, Gorakhpur</p>
+      <p>62.3%</p>
+    </div>
+
+    <div class="card">
+      <p><b>Matriculation</b></p>
+      <p>M.G Inter College, Gorakhpur</p>
+      <p>78%</p>
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <div id="contact" class="section">
+    <h2>Contact</h2>
+    <p>📧 singhsundram559@gmail.com</p>
+    <p>📞 +91 7518784497</p>
+    <p>📍 Gorakhpur, Uttar Pradesh, India</p>
+  </div>
+
+  <!-- INTERACTION SCRIPT -->
+  <script>
+    const sections = document.querySelectorAll('.section');
+
+    function revealSections() {
+      sections.forEach(section => {
+        const top = section.getBoundingClientRect().top;
+        if (top < window.innerHeight - 100) {
+          section.classList.add('show');
+        }
+      });
+    }
+
+    window.addEventListener('scroll', revealSections);
+    revealSections();
+  </script>
+
+</body>
+
+</html>
